@@ -1,0 +1,200 @@
+#main-container-section1 {
+  /* background-color: black; */
+  background-color: #121212;
+opacity: 1;
+  min-height: 70vh;
+  height: fit-content;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 80vw;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  z-index: 0;
+}
+
+#img-div {
+  position: absolute;
+  
+  top: 50%;
+  right: 0px;
+  bottom: 0px;
+  left: 40%;
+  width: 80%;
+  /* height: 80%; */
+  height: auto;
+background-repeat: no-repeat;
+  background-image: url("../../Pyragon/1.png");
+  background-size: cover;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+
+ 
+.demo-bg-section1 {
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 150%;
+  height: auto;
+  z-index: 1;
+  transform: translate(-50% , -20%);
+  opacity: 0.3;
+}
+
+
+
+
+#main-container-section1 h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  text-align: left;
+  width: 100%;
+  font-weight: 900;
+  margin: 0;
+  margin-top: 130px;
+  z-index: 4;
+
+}
+
+#btn-group {
+  z-index: 4;
+
+  width: 600px;
+  display: flex;
+  margin-top: 30px;
+}
+
+#btn-group button {
+  width: 180px;
+  height: 40px;
+  border: 0px;
+  color: white;
+  z-index: 4;
+
+}
+
+#btn-group-1 {
+  /* background-color: #8f7deb; */
+  /* background: linear-gradient(to top, #8f7deb , #b7aee4); */
+  background: linear-gradient(to top,#735cce, #8f7deb  );
+
+    z-index: 4;
+
+}
+
+#btn-group-2 {
+  margin-left: 40px;
+  background-color: #7c7c7c;
+  z-index: 4;
+
+}
+
+
+
+#footer {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.02);
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+
+  height: 130px;
+  margin-top: 150px;
+  z-index: 4;
+
+}
+
+/* .footer-section-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  height: min-content;
+  justify-content: space-around;
+  height: 70px;
+} */
+
+.footer-section-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  height: min-content;
+  justify-content: space-around;
+  height: 70px;
+  z-index: 4;
+
+}
+
+
+.footer-section-container h5 {
+  margin: 0;
+}
+
+.footer-section-container button {
+  width: 130px;
+  height: 30px;
+  font-size: 15px;
+  color: white;
+  text-decoration: bold;
+  background-color: #8f7deb;
+  border: 0px;
+}
+
+@media screen and (max-width: 1200px) {
+  #main-container-section1 h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  #footer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 90px;
+    height: fit-content;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  #main-container-section1 h1 {
+    font-size: 40px;
+  }
+
+  #btn-group {
+    width: 100%;
+  }
+
+  #footer {
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 90px;
+    height: fit-content;
+  }
+}
+
+
+@media screen and (max-width : 600px){
+
+  .demo-bg-section1 {
+      width: 2000px;
+      height: auto;
+      height: fit-content;
+      z-index: 1;
+      transform: translate(-60% , -30%);
+      opacity: 0.2;
+    }   
+  }
+  

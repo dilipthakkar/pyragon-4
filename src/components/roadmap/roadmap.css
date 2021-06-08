@@ -1,0 +1,43 @@
+.headings {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+.image {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roadmap-main-container{
+    margin-top: 120px;
+    z-index: 0;
+}
+
+.image img{
+  width: 60%;
+}
+
+
+@media screen and (max-width: 800px){
+  .headings {
+    
+    font-size: 45px;
+  }
+  
+}
+
+
+@media screen and (max-width: 500px){
+  .headings {
+    
+    font-size: 30px;
+  }
+  .image img{
+    width: 90%;
+  }
+  
+  
+}

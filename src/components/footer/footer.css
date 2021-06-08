@@ -1,0 +1,158 @@
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  /* background-color: rgba(126, 118, 118, 0.3); */
+  background: linear-gradient(to top, #252323 , #5a5a5a);
+  /* color: #a35bf2;
+    color : #7d37c4;
+    color: #7c7c7c;
+    color : #5a5a5a; */
+  /* background-color: rgba(83, 82, 82 , 0.5); */
+  padding : 30px;
+  margin-top: 140px;
+}
+
+.container-footer div{
+  text-align: left;
+}
+
+#heading-footer-second-container-1 h6{
+  padding: 8px;
+  margin: 0;
+}
+
+#card-footer-icons{
+  display: flex;
+  align-self:flex-start;
+  margin: 0;
+}
+
+#heading-footer-second-container-2 div{
+  margin: 20px;
+}
+
+
+#heading-footer-second-container-2{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin-right: 30px;
+}
+
+#heading-footer-second-container-2 h3{
+  font-size: 14px;
+}
+
+
+#heading-footer-second-container-1{
+  padding-left: 140px;
+  width: 30%;
+  
+}
+
+.heading-footer {
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.heading-footer h3 a{
+  font-weight: 400;
+  text-decoration: none;
+  color : white;
+}
+.card-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.card-footer h3 a{
+  font-weight: 400;
+  text-decoration: none;
+  color : white;
+}
+
+
+
+#heading-footer-second-container-2 h3{
+  margin: 7px;
+}
+
+#heading-footer-second-container-2 div #card-footer-icons{
+  margin: 10px;
+  position: relative;
+  right: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+#heading-footer-second-container-2 div #card-footer-icons a{
+  margin: 2px;
+  
+}
+
+.footer--contact--info{
+  color:rgb(156, 147, 147);
+}
+
+#PYRA-heading{
+  font-size: 40px;
+}
+
+.footer--contact--info{
+  margin-right: 40px;
+}
+
+.footer--contact--info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+@media screen and (max-width:1200px){
+  .container-footer {
+    padding : 4px;
+  }
+  #heading-footer-second-container-2{
+    width: 70%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  #heading-footer-second-container-1{
+    padding-left: 40px;
+    width: 30%;
+  }
+  
+  .heading-footer {
+    left: 20%;
+  }
+  #PYRA-heading{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:800px){
+  .container-footer{
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  #heading-footer-second-container-1{
+    width: 100%;
+  }
+  #heading-footer-second-container-2{
+    width: 100%;
+  }
+}
+
+
+

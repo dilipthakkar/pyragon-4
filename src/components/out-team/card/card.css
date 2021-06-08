@@ -1,0 +1,86 @@
+#our-team-card{
+    background-color: rgb(66, 62, 62);
+    /* width: 300px; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin : 20px;
+    margin-top: 80px;
+    margin-left: 30px;
+    position: relative;
+    border-radius: 10px;
+
+    
+}
+
+#sample-image{
+    background-image: url('../../../images/shape1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:90px;
+    height:90px;
+    min-width: fit-content;
+    /* position: relative; */
+    position: absolute;
+    top: -45px;
+    webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  z-index: 2;
+}
+
+
+#sample-block-2{
+    display: flex;
+    flex-direction:column;
+    /* position: relative;
+    top: -50px; */
+}
+
+#our-team-card img{
+    align-self: flex-end;
+    /* margin-top: 30px; */
+   
+}
+
+p{
+    /* margin: 5px; */
+    margin-top: 3px;
+    align-self: flex-start;
+    margin-left: 20px;
+    font-size: 16px;
+    text-align: left;
+    color: rgb(172, 170, 169);
+}
+
+#card-icons{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#card-icons img{
+    border : 0.5px rgb(110, 101, 101) solid;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cards-first-para{
+    margin-top: 25px;
+    color: white;
+}
+
+@media screen  and (max-width : 500px){
+    #our-team-card{
+        margin-top: 70px;
+        width: 250px;
+    }
+
+
+    
+}
+

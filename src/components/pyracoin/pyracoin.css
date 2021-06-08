@@ -1,0 +1,287 @@
+.pyracoin {
+  margin-top: 50px;
+  padding: 0;
+  color: white;
+  padding-left: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+
+}
+
+
+@keyframes  animation-pyracoin{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+  
+}
+
+#pyracoin-group-1 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 11;
+  position: relative;
+}
+
+#pyracoin-left-card {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 12;
+  position: relative;
+}
+
+#pyracoin-right {
+  width: 50%;
+  text-align: left;
+  z-index: 13;
+}
+
+
+#pyracoin-right p {
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  font-size: 20px;
+  color: rgb(184, 177, 177);
+}
+
+#pyracoin-right span {
+  font-size: 40px;
+  word-wrap: 10px;
+  font-weight: bolder;
+}
+
+#pyracoin-left-lower-heading {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#pyracoin-left-card-inner {
+  
+  width: 400px;
+  height: 300px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #2f2d2d;
+    
+
+  z-index: 3;
+}
+#pyracoin-left-card-inner-heading-1 {
+  font-size: 25px;
+  word-spacing: 5px;
+}
+
+#pyracoin-left-card-inner button {
+  width: 150px;
+  height: 40px;
+  background-color: #6b5db8;
+  
+  color: white;
+  border: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+#share-bar {
+  width: 400px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  margin-top: 60px;
+}
+
+#share-bar::before {
+  content: "0 Share";
+  position: relative;
+  top: -30px;
+  right: 140px;
+}
+
+#share-bar::after {
+  position: relative;
+  top: -30px;
+  left: 140px;
+  content: "10 Share";
+}
+
+#pyracoin-group-2 {
+  justify-self: flex-start;
+  margin-right: auto;
+  margin-left: 160px;
+  text-align: center;
+  display: flex;
+  justify-self: center;
+}
+
+#pyracoin-group-2 span{
+  font-size: 40px;
+}
+
+#pyracoin-left-card button:hover{
+  background-color: white;
+  color :rgb(99, 34, 185);
+  transition: all 250ms cubic-bezier(0.43,0.43,0.98,3);
+
+}
+
+@media screen and (max-width: 1400px) {
+  #pyracoin-group-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  #pyracoin-right {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .pyracoin {
+    margin: 10;
+    padding: 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #pyracoin-group-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #pyracoin-left-card {
+    width: 50%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #pyracoin-right {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .pyracoin {
+    width: 100%;
+  }
+  #pyracoin-group-1 {
+    width: 95%;
+  }
+  #pyracoin-left-card {
+    width: 50%;
+    max-width: 400px;
+  }
+
+  #pyracoin-left-card-inner {
+    padding: 0;
+  }
+
+  #share-bar {
+    width: 80%;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #share-bar::before {
+    content: "0 Share";
+    position: relative;
+    top: -30px;
+    right: 100px;
+  }
+
+  #share-bar::after {
+    position: relative;
+    top: -30px;
+    left: 100px;
+    content: "10 Share";
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #pyracoin-group-1 {
+    flex-direction: column-reverse;
+  }
+  #pyracoin-left-card {
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #pyracoin-right {
+    width: 90%;
+  }
+
+  #pyracoin-group-2{
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 500px) {
+  #pyracoin-group-1 {
+    flex-direction: column-reverse;
+  }
+  #pyracoin-left-card {
+    width: 90%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #pyracoin-left-card-inner {
+    width: 100%;
+  }
+
+  #share-bar {
+    width: 80%;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #share-bar::before {
+    content: "0 Share";
+    position: relative;
+    top: -30px;
+    right: 80px;
+  }
+
+  #share-bar::after {
+    position: relative;
+    top: -30px;
+    left: 80px;
+    content: "10 Share";
+  }
+}
+
+
+
+.demo-bg-tokenomics {
+  
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 300%;
+  height: auto;
+  z-index: 1;
+  transform: translate(-50% , -20%);
+  
+  opacity: 0.2;
+}

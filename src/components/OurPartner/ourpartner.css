@@ -1,0 +1,80 @@
+.our-partner-main-container{
+    background-color: #5c5195;
+    color:white;
+    margin-top: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;border-radius: 20px;
+    margin-bottom: 30px;
+    z-index: 4;padding-top: 20px;
+    position: relative;
+}
+
+.our-partner-main-container h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    z-index: 4;
+}
+
+.our-partner-second-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+
+.our-partner-cards{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(42, 37, 37);
+    font-size: 25px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.our-partner-main-container img{
+    width: 25%;
+    height: auto;
+}
+
+@media screen and (max-width : 900px){
+    .our-partner-main-container{
+        width: 95%;
+        margin: 0 10px 0 10px;
+        
+    }
+    .our-partner-main-container img{
+        width: 30%;
+    }
+    .our-partner-main-container h1{
+        font-size: 40px;
+        
+    }
+    
+}
+
+
+
+@media screen and (max-width : 600px){
+    .our-partner-second-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .our-partner-main-container{
+        width: 80%;
+        margin : 0 auto 0 auto;
+        
+    }
+    .our-partner-main-container img{
+        width: 80%;
+        height: 50px;
+        margin: 10px;
+    }
+    
+}
